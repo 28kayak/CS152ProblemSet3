@@ -1,3 +1,5 @@
+prologTest.pl is a test program to asnwer the questions below.
+=====================================================================================================================
 Problem #1: (20 points)
 Given the following knowledgebase, draw a search tree for the given query.
 Knowledgebase
@@ -12,12 +14,15 @@ Knowledgebase
 10. grandfather(X, Y) :- father(X, Z), parent(Z, Y). 11. grandmother(X, Y) :- mother(X, Z), parent(Z, Y).
 Query
      grandfather(X, Y).
+=====================================================================================================================
 Problem #2: (10 points)
 Write a Prolog predicate called even(X) that unifies to true if X is even and false otherwise.
+=====================================================================================================================
 Problem #3: (20 points)
 Tom dislikes anyone in the third year who likes Dave. Dave only likes hard workers and first years. Pete and Nigel are in the first year, Sam and Jane are in the third year. Sam and Pete dislike Dave and like Tom. Jane likes Dave. Pete, Nigel and Jane are all hard workers.
 Write a Prolog program to express the facts and rules and find out: Who does Tom dislike? Attach the listing of your code and a screenshot of the answer.
 1
+=====================================================================================================================
 Problem #4: (20 points)
 The following knowledgebase belongs to a sales system. Write the appropriate Prolog rules and run the queries. Attach the listing of your code and a screenshot of the answers.
 Requirements:
